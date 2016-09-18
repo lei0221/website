@@ -360,7 +360,7 @@ fieldset#body {
 }
 /*--start-banner--*/
 .banner {
-  background: #f6608a;
+  background: #FFC2E0;
   min-height: 730px;
 }
 .banner-info {
@@ -411,7 +411,7 @@ h3.tittle {
 }
 .text {
   background-color: #53bed6;
-  min-height: 550px;
+  min-height: 476px;
   padding: 4em;
 }
 .ab-grid.text h4 {
@@ -878,7 +878,7 @@ h3.tittle.two {
 	  text-align: center;
 	}
 	.banner {
-	  background: #f6608a;
+	  background: #FFC2E0;
 	  min-height: 700px;
 	}
 	.contact-top {
