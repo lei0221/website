@@ -1,206 +1,210 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-<title>Lei's home page</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />	
-<script src="js/jquery-1.11.1.min.js"></script>
-<!--webfonts-->
-<link href='//fonts.googleapis.com/css?family=Candal|Raleway:500,600,400' rel='stylesheet' type='text/css'>
-<!--//webfonts-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<!--/script-->
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-				});
-			});
-</script>
+    <title>Lei's home page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!--webfonts-->
+    <link href='//fonts.googleapis.com/css?family=Candal|Raleway:500,600,400' rel='stylesheet' type='text/css'>
+    <!--//webfonts-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <!--/script-->
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event) {
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 900);
+        });
+    });
+    </script>
 </head>
+
 <body>
-<!--start-home-->
-					<ul class="side_nav">
-							<li><a class="active scroll" href="#home"></a></li>
-								<li><a class="scroll" href="#about"></a></li>
-								<li><a class="scroll" href="#experience"></a></li>
-								<li><a class="scroll" href="#skill"></a></li>
-					</ul>
-		<div class="banner" id="home">
-			<div class="header-top">
-				<div class="container">	
-					<!--top-nav-->
-					<span class="menu"> </span>
-					<div class="top-menu">
-						<nav>
-							<ul class="cl-effect-16">
-								<li><a class="active scroll" href="#home">Home</a></li>
-								<li><a class="scroll" href="#about">About</a></li>
-								<li><a class="scroll" href="#experience">experience</a></li>
-								<li><a class="scroll" href="#skill">Skills</a></li>
-								<li><a target="_blank" href="resume.pdf">Resume</a></li>
-								<div class="clearfix"></div>
-							</ul>
-						</nav>		
-					</div>
+    <!--start-home-->
+    <ul class="side_nav">
+        <li>
+            <a class="active scroll" href="#home"></a>
+        </li>
+        <li>
+            <a class="scroll" href="#about"></a>
+        </li>
+        <li>
+            <a class="scroll" href="#experience"></a>
+        </li>
+        <li>
+            <a class="scroll" href="#skill"></a>
+        </li>
+    </ul>
+    <div class="banner" id="home">
+        <div class="header-top">
+            <div class="container">
+                <!--top-nav-->
+                <span class="menu"> </span>
+                <div class="top-menu">
+                    <nav>
+                        <ul class="cl-effect-16">
+                            <li><a class="active scroll" href="#home">Home</a></li>
+                            <li><a class="scroll" href="#about">About</a></li>
+                            <li><a class="scroll" href="#experience">experience</a></li>
+                            <li><a class="scroll" href="#skill">Skills</a></li>
+                            <li><a target="_blank" href="resume.pdf">Resume</a></li>
+                            <div class="clearfix"></div>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- script-for-menu -->
+                <script>
+                $("span.menu").click(function() {
+                    $(".top-menu ul").slideToggle("slow", function() {});
+                });
+                </script>
+                <!-- script-for-menu -->
+                <div class="clearfix"></div>
+                <!-- script-for-menu -->
+            </div>
+        </div>
+        <!--banner-->
+        <div class="container">
+            <!-- script-for-menu -->
+            <div class="banner-info">
+                <div class="logo">
+                    <a href="index.html"><h1>Hi! </h1></a>
+                </div>
+                <p> Welcome To My Little Place On The Internet</p>
+                <div class="scroll-down">
+                    <h4>SCROLL DOWN</h4>
+                    <a class="downarrow scroll" href="#about"><span></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div class="about" id="about">
+        <div class="container">
+            <h3 class="tittle">About Me</h3>
+            <div class="col-md-5 ab-grid pic">
+                <img src="images/profile.jpg" alt=" " title="ab">
+            </div>
+            <div class="col-md-7 ab-grid text">
+                <h4>Hi, my name is Lei Jiang </h4>
+                <p> I'm currently an Accounting and Financial Management student at the University of Waterloo. I love the world of investment and accounting; this interest is furthered my education at the University. </p>
+                <p> I also enjoy overcoming challenges and learning about any new things that I didn't know before. In my spare times, I like to play tennis, go swimming or relax by playing my piano.</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!--//about-->
+    <!--experience-starts-->
+    <div class="experience" id="experience">
+        <div class="container">
+            <h3 class="tittle four">Education & Experience</h3>
+            <div class="experience-main">
+                <span class="devide-line"></span>
+                <div class="experience-left">
+                    <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                    <h4>Bachelor of Accounting and Financial Management </h4>
+                    <h5>University of Waterloo [ 2015 - Present ]</h5>
+                    <p>Gained understanding of accounting documents and procedures through school projects. Improved teamwork and interpersonal skills through group collaboration</p>
+                </div>
+                <div class="experience-left-snd">
+                    <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+                </div>
+                <div class="experience-right-snd">
+                    <h4>Student Works Painting</h4>
+                    <h5>Treasurer [2016]</h5>
+                    <p>Kept record of employee hours and submitted biweekly payrolls, performed book keeping and record keeping tasks along with financial statements preparation. Was also in charge of financial planning and company budgeting.
+                    </p>
+                </div>
+                <div class="experience-left-trd">
+                    <span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+                    <h4>Bank of China</h4>
+                    <h5>Intern [2016]</h5>
+                    <p>Reviewed customer documents to ensure that they met the necessary requirements for both loan and credit card applications. Other responsibilities include data verification where I was able to polish my journal entries, data entering and financial statements skills.
+                    </p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!--experience-end-->
+    <!--my-skill-->
+    <div class="my-skills text-center" id="skill">
+        <div class="container">
+            <h3 class="tittle">My Skills</h3>
+            <div class="skill-grids" id="skill-grid">
+                <div class="col-md-2 skills-grid text-center">
+                    <div class="circle" id="je" skill=6></div>
+                    <p>Journal Entries</p>
+                </div>
+                <div class="col-md-2 skills-grid text-center">
+                    <div class="circle" id="fs" skill=5></div>
+                    <p>Financial Statements</p>
+                </div>
+                <div class="col-md-2 skills-grid text-center">
+                    <div class="circle" id="mo" skill=6></div>
+                    <p>Microsoft Office</p>
+                </div>
+                <div class="col-md-2 skills-grid text-center">
+                    <div class="circle" id="jh" skill=4></div>
+                    <p>JavaScript/HTML</p>
+                </div>
+                <div class="col-md-2 skills-grid text-center">
+                    <div class="circle" id="vba" skill=4></div>
+                    <p>VBA</p>
+                </div>
+                <div class="col-md-2 skills-grid text-center">
+                    <div class="circle" id="tw" skill=6></div>
+                    <p>Teamwork</p>
+                </div>
+                <div class="clearfix"> </div>
+                <script type="text/javascript" src="js/circles.js"></script>
+                <script>
+                var colors = [
+                    ['#f6608a', '#ffffff'],
+                    ['#f6608a', '#ffffff'],
+                    ['#f6608a', '#ffffff'],
+                    ['#f6608a', '#ffffff'],
+                    ['#f6608a', '#ffffff'],
+                    ['#f6608a', '#ffffff']
+                ];
 
-				<!-- script-for-menu -->
-								<script>
-									$("span.menu").click(function(){
-										$(".top-menu ul").slideToggle("slow" , function(){
-										});
-									});
-								</script>
-								<!-- script-for-menu -->
+                var parentContainer = document.getElementById('skill-grid');
+                var skills = parentContainer.getElementsByClassName('circle');
+                for (var i = 0; i < skills.length; i++) {
+                    var percentage = 30 + (skills[i].getAttribute('skill') * 10);
 
-				 <div class="clearfix"></div>
-			<!-- script-for-menu -->
-		    </div>
-		  </div>
-		<!--banner-->	
-		<div class="container">	
-		      <!-- script-for-menu -->	  	 
-				  <div class="banner-info">	
-						 <div class="logo">
-							  <a href="index.html"><h1>Hi! </h1></a>
-						  </div>
-						<p> Welcome To My Little Place On The Internet</p>
-						<div class="scroll-down">
-						 <h4>SCROLL DOWN</h4>
-						<a class="downarrow scroll" href="#about"><span></span></a>
-						</div>
-				  </div>
-			</div>
-		</div>
-	<!--about-->
-	<div class="about" id="about">
-	   <div class="container">
-	   <h3 class="tittle">About Me</h3>
-	      <div class="col-md-5 ab-grid pic">
-		  <img src="images/profile.jpg" alt=" " title="ab">
-		  </div>
-		  <div class="col-md-7 ab-grid text">
-		    <h4>Hi, my name is Lei Jiang </h4>
-
-		    <p>  I'm currently an Accounting and Financial Management student at the University of Waterloo. I love the world of investment and accounting; this interest is furthered my education at the University. </p>
-
-		    <p> I also enjoy overcoming challenges and learning about any new things that I didn't know before.
-
-			In my spare times, I like to play tennis, go swimming or relax by playing my piano.</p>
-			 
-		  </div>
-		  <div class="clearfix"> </div>
-	   </div>
-    </div>	   
-	<!--//about-->
-	<!--experience-starts-->
-	<div class="experience" id="experience">
-		<div class="container">
-				<h3 class="tittle four">Education & Experience</h3>
-				<div class="experience-main">
-					<span class="devide-line"></span>
-					<div class="experience-left">
-						<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-						<h4>Bachelor of Accounting and Financial Management </h4>
-						<h5>University of Waterloo [ 2015 - Present ]</h5>
-						<p>Gained understanding of accounting documents and procedures through school projects. Improved teamwork and interpersonal skills through group collaboration</p>
-
-					</div>
-					<div class="experience-left-snd">
-						<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
-					</div>
-					<div class="experience-right-snd">
-						<h4>Bank of China</h4>
-						<h5>Intern [2016]</h5>
-						<p>Reviewed customer documents to ensure that they met the necessary requirements for both loan and credit card applications. Other responsibilities include data verification where I was able to polish my journal entries, data entering and financial statements skills.
-
-</p>
-					</div>
-					<div class="experience-left-trd">
-						<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
-						<h4>Ye's buffet</h4>
-						<h5>Receptionist [2014]</h5>
-						<p>	Provided excellent service to customers by preparing and serving food in a timely manner. Some of my other responsibilities include taking orders through both the telephone and in-person as well well maintaining and restocking inventory.
-</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-		</div>
-	</div>
-	<!--experience-end-->
-
-<!--my-skill-->
-  <div class="my-skills text-center" id="skill">
-	<div class="container">
-		<h3 class="tittle">My Skills</h3>
-		<div class="skill-grids" id="skill-grid">
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="je" skill=6></div>
-						<p>Journal Entries</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="fs" skill=5></div>
-						<p>Financial Statements</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="mo" skill=6></div>
-						<p>Microsoft Office</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="jh" skill=4></div>
-						<p>JavaScript/HTML</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="vba" skill=4></div>
-						<p>VBA</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="tw" skill=6></div>
-						<p>Teamwork</p>
-					</div>
-					<div class="clearfix"> </div>
-				 <script type="text/javascript" src="js/circles.js"></script>
-					         <script>
-								var colors = [
-										['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff']
-									];
-
-								var parentContainer = document.getElementById('skill-grid');
-								var skills = parentContainer.getElementsByClassName('circle');
-								for (var i = 0; i < skills.length; i++) {
-									var percentage = 30 + (skills[i].getAttribute('skill') * 10);
-										
-									Circles.create({
-										id:         skills[i].id,
-										percentage: percentage,
-										radius:     80,
-										width:      10,
-										number:   	percentage / 1,
-										text:       '%',
-										colors:     colors[i]
-									});
-								}
-						
-				</script>
-		</div>
-	</div>	
-</div>
-<!--//my-skill-->
-
-	<!--footer-->
-	<div class="copy">
-		<p>&copy; Copyrighted 2016 </p>
-	</div>
-							<!--start-smoth-scrolling-->
-						<script type="text/javascript">
-									$(document).ready(function() {
-										/*
+                    Circles.create({
+                        id: skills[i].id,
+                        percentage: percentage,
+                        radius: 80,
+                        width: 10,
+                        number: percentage / 1,
+                        text: '%',
+                        colors: colors[i]
+                    });
+                }
+                </script>
+            </div>
+        </div>
+    </div>
+    <!--//my-skill-->
+    <!--footer-->
+    <div class="copy">
+        <p>&copy; Copyrighted 2016 </p>
+    </div>
+    <!--start-smoth-scrolling-->
+    <script type="text/javascript">
+    $(document).ready(function() {
+        /*
 										var defaults = {
 								  			containerID: 'toTop', // fading element id
 											containerHoverID: 'toTopHover', // fading element hover id
@@ -208,12 +212,14 @@
 											easingType: 'linear' 
 								 		};
 										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
+        $().UItoTop({
+            easingType: 'easeOutQuart'
+        });
+
+    });
+    </script>
+    <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 </body>
+
 </html>
